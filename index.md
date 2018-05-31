@@ -6,12 +6,12 @@ Right now it supports React and Redux but more Vue, Angular, and MobX support ar
 
 Metatonic is still under development and so there will be bugs and features that don't fully work yet but the app builder and frontend-only example app should be working if you want to check them out.
 
-###Install
+### Install
 ````sh
 npm install metatonic-core metatonic-redux metatonic-react metatonic-react-redux
 ````
 
-###Setup
+### Setup
 ```` TypeScript
 // One time setup
 let metatonicConfig = {
@@ -43,7 +43,7 @@ class App extends React.Component {
 
 ````
 
-###Models
+### Models
 ````TypeScript
 @model()
 export class House {
