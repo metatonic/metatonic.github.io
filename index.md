@@ -4,7 +4,7 @@ Capable of handling complex business models including forms with tables, dropdow
 
 Right now it supports React and Redux but Vue, Angular, and MobX support are all planned.
 
-Metatonic is still under development and so there will be bugs and features that don't fully work yet but the app builder and frontend-only example app should be working if you want to check them out.
+Metatonic is still under development and so there will be bugs and features that don't fully work yet but the app builder and frontend-only example app should be mostly working if you want to check them out.
 
 ### Install
 ````sh
