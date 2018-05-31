@@ -141,7 +141,8 @@ $fuschia9: #580061;
     background-image: linear-gradient(120deg, $indigo7, $base);
 }
 
-@media screen and (min-width: 64em)
+@media screen and (min-width: 64em) {
 .page-header {
     padding: 4rem 6rem;
+}
 }
