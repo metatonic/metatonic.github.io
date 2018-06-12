@@ -138,11 +138,34 @@ $fuschia9: #580061;
 
 .page-header {
     background-color: $base;
-    background-image: linear-gradient(120deg, $indigo9, $base);
+    background-image: linear-gradient(120deg, $indigo9, $pink9);
+    padding: 1rem 4rem;
 }
+
 
 @media screen and (min-width: 64em) {
 .page-header {
     padding: 2rem 6rem;
 }
+}
+
+
+.badge-logo {
+    width: 96px;
+    height: 96px;
+    margin-bottom: -10px;
+}
+
+.project-name {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.project-tagline {
+    margin: 0 0 20px 0;
+}
+
+.page-header .btn {
+    margin-bottom: 0;
+    padding: .5em .75em;
 }
